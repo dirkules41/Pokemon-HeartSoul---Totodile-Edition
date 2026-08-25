@@ -785,7 +785,6 @@ static u8 CreatePokemonFrontSpriteTotodile(u16 species, u8 x, u8 y)
         spriteId = CreateMonPicSprite_Affine(species, TRUE, 1, MON_PIC_AFFINE_FRONT, x, y, 14, TAG_NONE);
     }
     else
-        FlagSet(FLAG_SHINY_STARTER_3);
         spriteId = CreateMonPicSprite_Affine(species, 8, 0, MON_PIC_AFFINE_FRONT, x, y, 14, TAG_NONE);
     gSprites[spriteId].oam.priority = 0;
     return spriteId;
