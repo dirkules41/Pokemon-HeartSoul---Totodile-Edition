@@ -4121,6 +4121,7 @@ const union {
 
     [SPECIES_TOTODILE] = { .learnset = {
         .FOCUS_PUNCH = TRUE,
+        .DRAGON_CLAW = TRUE,
         .WATER_PULSE = TRUE,
         .TOXIC = TRUE,
         .HAIL = TRUE,
@@ -4142,12 +4143,15 @@ const union {
         .ATTRACT = TRUE,
         .CUT = TRUE,
         .SURF = TRUE,
+        .STRENGTH = TRUE,
+        .ROCK_SMASH = TRUE,
         .WATERFALL = TRUE,
         .WHIRLPOOL = TRUE,
     } },
 
     [SPECIES_CROCONAW] = { .learnset = {
         .FOCUS_PUNCH = TRUE,
+        .DRAGON_CLAW = TRUE,
         .WATER_PULSE = TRUE,
         .ROAR = TRUE,
         .TOXIC = TRUE,
@@ -4580,6 +4584,7 @@ const union {
         .FRUSTRATION = TRUE,
         .SOLAR_BEAM = TRUE,
         .RETURN = TRUE,
+        .DIG = TRUE,
         .PSYCHIC = TRUE,
         .SHADOW_BALL = TRUE,
         .DOUBLE_TEAM = TRUE,
@@ -4591,8 +4596,14 @@ const union {
         .SECRET_POWER = TRUE,
         .REST = TRUE,
         .ATTRACT = TRUE,
+        .CUT = TRUE,
+        .FLY = TRUE,
+        .SURF = TRUE,
+        .STRENGTH = TRUE,
         .FLASH = TRUE,
         .ROCK_SMASH = TRUE,
+        .WATERFALL = TRUE,
+        .WHIRLPOOL = TRUE,
     } },
 
     [SPECIES_TOGETIC] = { .learnset = {
@@ -4609,6 +4620,7 @@ const union {
         .FRUSTRATION = TRUE,
         .SOLAR_BEAM = TRUE,
         .RETURN = TRUE,
+        .DIG = TRUE,
         .PSYCHIC = TRUE,
         .SHADOW_BALL = TRUE,
         .BRICK_BREAK = TRUE,
@@ -4623,9 +4635,14 @@ const union {
         .REST = TRUE,
         .ATTRACT = TRUE,
         .STEEL_WING = TRUE,
+        .CUT = TRUE,
         .FLY = TRUE,
+        .SURF = TRUE,
+        .STRENGTH = TRUE,
         .FLASH = TRUE,
         .ROCK_SMASH = TRUE,
+        .WATERFALL = TRUE,
+        .WHIRLPOOL = TRUE,
     } },
 
     [SPECIES_NATU] = { .learnset = {
