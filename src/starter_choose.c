@@ -754,10 +754,10 @@ static u8 CreatePokemonFrontSpriteChikorita(u16 species, u8 x, u8 y)
 static u8 CreatePokemonFrontSpriteTotodile(u16 species, u8 x, u8 y)
 {
     u8 spriteId;
-    static u32 isShinyTotodile = 0;
+    static u32 isShinyTotodile = 1;
 
     if (isShinyTotodile == 0)
-        isShinyTotodile = (Random()% 128);
+        isShinyTotodile = (Random()% 8192);
 
     if ((isShinyTotodile < SHINY_ODDS) && (gSaveBlock1Ptr->tx_Features_ShinyChance == 0)) // 1/8192
     {
