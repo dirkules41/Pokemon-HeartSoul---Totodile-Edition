@@ -757,7 +757,7 @@ static u8 CreatePokemonFrontSpriteTotodile(u16 species, u8 x, u8 y)
     static u32 isShinyTotodile = 0;
 
     if (isShinyTotodile == 0)
-        isShinyTotodile = (Random()% 8192);
+        isShinyTotodile = (Random()% 128);
 
     if ((isShinyTotodile < SHINY_ODDS) && (gSaveBlock1Ptr->tx_Features_ShinyChance == 0)) // 1/8192
     {
